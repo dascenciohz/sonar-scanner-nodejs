@@ -2,8 +2,8 @@
 
 The sonar-scanner is the scanner to use when there is no specific scanner for NodeJS.
 
-NodeJS Default Version: 10
-NodeJS Version Support: 8, 10, 11, 12, 13
+* NodeJS Default Version: 10
+* NodeJS Version Support: 8, 10, 11, 12, 13
 
 ## Build a docker image
 
