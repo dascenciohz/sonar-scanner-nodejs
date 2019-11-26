@@ -8,13 +8,13 @@ The sonar-scanner is the scanner to use when there is no specific scanner for No
 ## Build a docker image
 
 ```
-docker build --build-arg NODEJS_VERSION=11 -t dascencio/sonar-scanner-nodejs:4.2 .
+docker build --build-arg NODEJS_VERSION=11 -t dascencio/sonar-scanner-nodejs:10.4.2 .
 ```
 
 ## Run a docker container
 
 ```
-docker run --rm -e SONARQUBE_URL=http://mysonarqube.com dascencio/sonar-scanner-nodejs:4.2 bash
+docker run --rm -e SONARQUBE_URL=http://mysonarqube.com dascencio/sonar-scanner-nodejs:10.4.2 bash
 
 sonar-scanner -D [arguments]
 ```
